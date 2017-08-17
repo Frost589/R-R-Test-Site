@@ -1,23 +1,27 @@
 
 body{
-	background: #999;
+	background: #dcdee2;
 	
 }
 
 header {
-	background: #555;
+	background: #6290db;
 	color: white;
-	padding: 15px 15px 0 15px
+	font-family: arial;
+	font-size: 200%;
+	padding: 15px 15px 0px 15px;
 
 }
 
 header h1{
-	margin: 0;
+	margin: 10px;
 	display: inline;
+	padding: 100px 0px 0px 0px;
+
 }
 nav ul{
-	margin: 0;
-	padding: 0 0 0 215px;
+	margin: 0px;
+	padding: 10px 10px;
 	display: inline;
 
 
@@ -26,6 +30,8 @@ nav ul{
 nav ul li{
 	background: black;
 	color: white;
+	font: 500px;
+	border-radius: 10px 10px 0px 0px;
 	display: inline-block;
 	list-style-type: none;
 	padding: 5px 15px;
@@ -43,12 +49,41 @@ nav ul li a{
 .col{
 	background: #333;
 	color: white;
-	border-radius: 5px;
+	border-radius: 10px 10px 0px 0px;
 	padding: 5%;
 	float: left;
 	margin: .5%;
 	width: 31%;
 
+}
+
+.myPanel{
+	border: 1px solid #204860;
+	border-radius: 5px;
+	box-shadow: 0px 0px 4px #ccc;
+	margin: 3%;
+}
+
+.myPanel .heading{
+	background: #62c2fc;
+	border: 1px solid #204860;
+	border-radius: 5px 5px 0px 0px;
+	color: #204860;
+	padding: 10px 20px;
+}
+.myPanel .body{
+	padding: 10px 20px;
+}
+
+.myPanl .showOnHover{
+	display: none;
+}
+.myPanel .showOnHover{
+	box-shadow: 0px 0px 8px #666;
+	border: 2px solid #204860;
+}
+.myPanel:hover .showOnHover{
+	display: inline-block;
 }
 
 footer {
